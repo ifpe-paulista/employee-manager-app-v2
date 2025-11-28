@@ -29,6 +29,7 @@ jobs:
     
     - name: Run linting
       run: |
+        pip install flake
         flake8 . --exclude=migrations,venv
         black --check .
             
