@@ -1,5 +1,7 @@
 # Employee Manager Application (Frontend + Backend)
 
+[![Django CI](https://github.com/ifpe-paulista/employee-manager-app-v2/actions/workflows/django.yml/badge.svg)](https://github.com/ifpe-paulista/employee-manager-app-v2/actions/workflows/django.yml)
+
 Esse repositório baseia-se em https://github.com/rodrigoclira/employee-manager-app-v1 . Na versão v2 do repositório foi adicionado uma aplicação de frontend para acessar a API disponibilizada com DRF. Sendo assim duas aplicações são inicializadas por _containers_ docker, a _frontend_ e a _backend_.
 
 Ambas aplicações podem ser inicializadas usando o comando abaixo
